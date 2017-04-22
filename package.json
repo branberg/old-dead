@@ -1,0 +1,22 @@
+{
+  "name": "old_dead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/smubba/old-dead.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/smubba/old-dead/issues"
+  },
+  "homepage": "https://gitlab.com/smubba/old-dead#README",
+  "dependencies": {
+    "tabletop": "^1.5.2"
+  }
+}
