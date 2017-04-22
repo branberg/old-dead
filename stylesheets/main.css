@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 62.5%;
+}
+
+.wrapper {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 320px;
+  height: 568px;
+  position: relative;
+  padding: 3rem;
+  margin: 0 3rem 3rem 0;
+  flex-shrink: 0;
+}
+
+.card__name {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.125;
+  margin-bottom: 5rem;
+}
+
+.card__age {
+  font-size: 10rem;
+}
+
+.card__birthdate {
+  font-size: 2.2rem;
+}
